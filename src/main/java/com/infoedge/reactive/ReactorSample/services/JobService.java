@@ -1,5 +1,6 @@
 package com.infoedge.reactive.ReactorSample.services;
 
+import java.time.Duration;
 import java.util.List;
 
 import org.modelmapper.ModelMapper;
@@ -46,8 +47,10 @@ public class JobService {
 
 	public Flux<JobDTO> findAll() {
 		Flux<Job> jobs = jobRepository.findAll();
-		return modelMapper.map(jobs, new TypeToken<Flux<JobDTO>>() {
+		Flux<JobDTO> jobsDto =  modelMapper.map(jobs, new TypeToken<Flux<JobDTO>>() {
 		}.getType());
+		jobsDto = jobsDto.delayElements(Duration.ofMillis(2000));
+		return jobsDto;
 	}
 
 	public Mono<JobDTO> update(JobDTO e) {
