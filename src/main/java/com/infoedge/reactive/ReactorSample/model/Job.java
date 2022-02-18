@@ -17,10 +17,8 @@ import lombok.NoArgsConstructor;
 @NoArgsConstructor
 @Document(collection = "jobs")
 public class Job {
-	@JsonIgnore
 	@Id
 	private String id;
-	@JsonProperty("id")
 	private String refId;
 	@NotBlank
 	private String companyId;

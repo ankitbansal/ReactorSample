@@ -1,8 +1,0 @@
-/home/ankitbansal/platform2-workspace/ReactorSample/src/main/java/com/infoedge/reactive/ReactorSample/AppConfig.java
-/home/ankitbansal/platform2-workspace/ReactorSample/src/main/java/com/infoedge/reactive/ReactorSample/dto/JobDTO.java
-/home/ankitbansal/platform2-workspace/ReactorSample/src/main/java/com/infoedge/reactive/ReactorSample/repositories/JobRepository.java
-/home/ankitbansal/platform2-workspace/ReactorSample/src/main/java/com/infoedge/reactive/ReactorSample/MongoConfig.java
-/home/ankitbansal/platform2-workspace/ReactorSample/src/main/java/com/infoedge/reactive/ReactorSample/model/Job.java
-/home/ankitbansal/platform2-workspace/ReactorSample/src/main/java/com/infoedge/reactive/ReactorSample/resources/JobResource.java
-/home/ankitbansal/platform2-workspace/ReactorSample/src/main/java/com/infoedge/reactive/ReactorSample/Application.java
-/home/ankitbansal/platform2-workspace/ReactorSample/src/main/java/com/infoedge/reactive/ReactorSample/services/JobService.java

@@ -15,11 +15,9 @@ import lombok.NoArgsConstructor;
 @AllArgsConstructor
 @NoArgsConstructor
 public class JobDTO {
-	@JsonIgnore
 	@Id
 	private String id;
 	@NotBlank
-	@JsonProperty("id")
 	private String refId;
 	@NotBlank
 	private String companyId;
