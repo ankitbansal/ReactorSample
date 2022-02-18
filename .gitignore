@@ -1,0 +1,13 @@
+logs/**
+target/
+.classpath
+.project
+/logs/
+logs
+.idea
+*.xlsx#
+codepair-web.iml
+/kube-target/
+
+/bin/
+
